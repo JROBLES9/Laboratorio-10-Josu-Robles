@@ -7,7 +7,7 @@ namespace Laboratorio_10_Josué_Robles
 {
     public class Alumno : Persona
     {
-        public int Carnee { get; set; }
+        public string Carnee { get; set; }
         public List<int> Notas { get; set; }
     }
 }
